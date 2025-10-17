@@ -1,7 +1,7 @@
 // ignore_for_file: non_constant_identifier_names
 
 import 'dart:convert';
-import 'package:tochegandodeliverytochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:googleapis_auth/auth_io.dart';
 import 'package:googleapis_auth/googleapis_auth.dart';

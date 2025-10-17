@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:math';
 
 import 'package:crypto/crypto.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/ui/auth_screen/otp_screen.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/ui/auth_screen/otp_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

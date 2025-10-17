@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:map_launcher/map_launcher.dart';
 

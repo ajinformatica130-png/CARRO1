@@ -1,7 +1,7 @@
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/controller/live_tracking_controller.dart';
-import 'package:customer/themes/app_colors.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/controller/live_tracking_controller.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:get/get.dart';

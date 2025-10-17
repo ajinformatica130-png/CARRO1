@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/model/payment_model.dart';
-import 'package:customer/model/user_model.dart';
-import 'package:customer/payment/paystack/pay_stack_url_model.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/model/payment_model.dart';
+import 'package:tochegandodelivery/model/user_model.dart';
+import 'package:tochegandodelivery/payment/paystack/pay_stack_url_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 

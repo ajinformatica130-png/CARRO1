@@ -1,10 +1,10 @@
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/controller/contact_us_controller.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/themes/button_them.dart';
-import 'package:customer/themes/responsive.dart';
-import 'package:customer/themes/text_field_them.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/controller/contact_us_controller.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/themes/button_them.dart';
+import 'package:tochegandodelivery/themes/responsive.dart';
+import 'package:tochegandodelivery/themes/text_field_them.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_email_sender/flutter_email_sender.dart';
 import 'package:get/get.dart';

@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customer/model/language_name.dart';
+import 'package:tochegandodelivery/model/language_name.dart';
 
 class ZoneModel {
   List<GeoPoint>? area;

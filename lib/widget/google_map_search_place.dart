@@ -1,9 +1,9 @@
 import 'dart:convert';
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/model/place_picker_model.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/utils/DarkThemeProvider.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/model/place_picker_model.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/utils/DarkThemeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';

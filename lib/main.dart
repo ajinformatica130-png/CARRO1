@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:customer/controller/global_setting_conroller.dart';
-import 'package:customer/firebase_options.dart';
-import 'package:customer/services/localization_service.dart';
-import 'package:customer/themes/Styles.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/ui/splash_screen.dart';
-import 'package:customer/utils/DarkThemeProvider.dart';
+import 'package:tochegandodelivery/controller/global_setting_conroller.dart';
+import 'package:tochegandodelivery/firebase_options.dart';
+import 'package:tochegandodelivery/services/localization_service.dart';
+import 'package:tochegandodelivery/themes/Styles.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/ui/splash_screen.dart';
+import 'package:tochegandodelivery/utils/DarkThemeProvider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';

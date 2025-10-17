@@ -1,6 +1,6 @@
 
-import 'package:customer/model/admin_commission.dart';
-import 'package:customer/model/language_name.dart';
+import 'package:tochegandodelivery/model/admin_commission.dart';
+import 'package:tochegandodelivery/model/language_name.dart';
 
 class IntercityServiceModel {
   String? image;

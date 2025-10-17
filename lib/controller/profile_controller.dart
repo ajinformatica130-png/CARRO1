@@ -1,6 +1,6 @@
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/model/user_model.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/model/user_model.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

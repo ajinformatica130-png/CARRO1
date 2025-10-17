@@ -1,7 +1,7 @@
-import 'package:customer/constant/constant.dart';
-import 'package:customer/model/language_model.dart';
-import 'package:customer/utils/Preferences.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/model/language_model.dart';
+import 'package:tochegandodelivery/utils/Preferences.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:get/get.dart';
 
 class SettingController extends GetxController {

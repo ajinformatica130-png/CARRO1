@@ -2,7 +2,7 @@
 
 import 'dart:async';
 import 'dart:convert';
-import 'package:customer/model/payment_model.dart';
+import 'package:tochegandodelivery/model/payment_model.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

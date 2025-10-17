@@ -1,7 +1,7 @@
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/utils/DarkThemeProvider.dart';
-import 'package:customer/utils/utils.dart';
-import 'package:customer/widget/osm_map_search_place.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/utils/DarkThemeProvider.dart';
+import 'package:tochegandodelivery/utils/utils.dart';
+import 'package:tochegandodelivery/widget/osm_map_search_place.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_osm_plugin/flutter_osm_plugin.dart';
 import 'package:get/get.dart';

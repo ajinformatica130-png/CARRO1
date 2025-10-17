@@ -1,5 +1,5 @@
-import 'package:customer/model/referral_model.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/model/referral_model.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:get/get.dart';
 
 class ReferralController extends GetxController {

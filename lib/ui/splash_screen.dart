@@ -1,5 +1,5 @@
-import 'package:customer/controller/splash_controller.dart';
-import 'package:customer/themes/app_colors.dart';
+import 'package:tochegandodelivery/controller/splash_controller.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

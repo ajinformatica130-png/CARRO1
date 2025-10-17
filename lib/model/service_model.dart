@@ -1,5 +1,5 @@
-import 'package:customer/model/admin_commission.dart';
-import 'package:customer/model/language_title.dart';
+import 'package:tochegandodelivery/model/admin_commission.dart';
+import 'package:tochegandodelivery/model/language_title.dart';
 
 class ServiceModel {
   String? image;

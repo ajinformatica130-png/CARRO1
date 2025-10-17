@@ -1,7 +1,7 @@
-import 'package:customer/model/driver_user_model.dart';
-import 'package:customer/model/intercity_order_model.dart';
-import 'package:customer/model/order_model.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/model/driver_user_model.dart';
+import 'package:tochegandodelivery/model/intercity_order_model.dart';
+import 'package:tochegandodelivery/model/order_model.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

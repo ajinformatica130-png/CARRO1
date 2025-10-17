@@ -1,6 +1,6 @@
-import 'package:customer/constant/constant.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/themes/responsive.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/themes/responsive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:get/get.dart';

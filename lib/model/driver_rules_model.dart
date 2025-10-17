@@ -1,4 +1,4 @@
-import 'package:customer/model/language_name.dart';
+import 'package:tochegandodelivery/model/language_name.dart';
 
 class DriverRulesModel {
   String? image;

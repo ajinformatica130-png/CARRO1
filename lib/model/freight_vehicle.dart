@@ -1,6 +1,6 @@
 
-import 'package:customer/model/language_description.dart';
-import 'package:customer/model/language_name.dart';
+import 'package:tochegandodelivery/model/language_description.dart';
+import 'package:tochegandodelivery/model/language_name.dart';
 
 class FreightVehicle {
   String? image;

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:customer/constant/constant.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';

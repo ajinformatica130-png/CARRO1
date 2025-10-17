@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:customer/constant/constant.dart';
-import 'package:customer/controller/on_boarding_controller.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/themes/button_them.dart';
-import 'package:customer/ui/auth_screen/login_screen.dart';
-import 'package:customer/utils/Preferences.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/controller/on_boarding_controller.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/themes/button_them.dart';
+import 'package:tochegandodelivery/ui/auth_screen/login_screen.dart';
+import 'package:tochegandodelivery/utils/Preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';

@@ -4,24 +4,24 @@ import 'dart:io';
 import 'dart:math' as maths;
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/model/payment_model.dart';
-import 'package:customer/model/stripe_failed_model.dart';
-import 'package:customer/model/user_model.dart';
-import 'package:customer/model/wallet_transaction_model.dart';
-import 'package:customer/payment/MercadoPagoScreen.dart';
-import 'package:customer/payment/PayFastScreen.dart';
-import 'package:customer/payment/getPaytmTxtToken.dart';
-import 'package:customer/payment/midtrans_screen.dart';
-import 'package:customer/payment/paystack/orangePayScreen.dart';
-import 'package:customer/payment/paystack/pay_stack_screen.dart';
-import 'package:customer/payment/paystack/pay_stack_url_model.dart';
-import 'package:customer/payment/paystack/paystack_url_genrater.dart';
-import 'package:customer/payment/xenditModel.dart';
-import 'package:customer/payment/xenditScreen.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/model/payment_model.dart';
+import 'package:tochegandodelivery/model/stripe_failed_model.dart';
+import 'package:tochegandodelivery/model/user_model.dart';
+import 'package:tochegandodelivery/model/wallet_transaction_model.dart';
+import 'package:tochegandodelivery/payment/MercadoPagoScreen.dart';
+import 'package:tochegandodelivery/payment/PayFastScreen.dart';
+import 'package:tochegandodelivery/payment/getPaytmTxtToken.dart';
+import 'package:tochegandodelivery/payment/midtrans_screen.dart';
+import 'package:tochegandodelivery/payment/paystack/orangePayScreen.dart';
+import 'package:tochegandodelivery/payment/paystack/pay_stack_screen.dart';
+import 'package:tochegandodelivery/payment/paystack/pay_stack_url_model.dart';
+import 'package:tochegandodelivery/payment/paystack/paystack_url_genrater.dart';
+import 'package:tochegandodelivery/payment/xenditModel.dart';
+import 'package:tochegandodelivery/payment/xenditScreen.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_paypal/flutter_paypal.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
@@ -92,7 +92,7 @@ class WalletController extends GetxController {
         paymentType: selectedPaymentMethod.value,
         transactionId: DateTime.now().millisecondsSinceEpoch.toString(),
         userId: FireStoreUtils.getCurrentUid(),
-        userType: "customer",
+        userType: "tochegandodelivery",
         note: "Wallet Topup");
 
     await FireStoreUtils.setWalletTransaction(transactionModel).then((value) async {
@@ -309,10 +309,10 @@ class WalletController extends GetxController {
       "currency": "NGN",
       "redirect_url": "${Constant.globalUrl}payment/success",
       "payment_options": "ussd, card, barter, payattitude",
-      "customer": {
+      "tochegandodelivery": {
         "email": userModel.value.email.toString(),
         "phonenumber": userModel.value.phoneNumber, // Add a real phone number
-        "name": userModel.value.fullName!, // Add a real customer name
+        "name": userModel.value.fullName!, // Add a real tochegandodelivery name
       },
       "customizations": {
         "title": "Payment for Services",
@@ -567,7 +567,7 @@ class WalletController extends GetxController {
     final body = jsonEncode({
       'external_id': Constant.getUuid(),
       'amount': amount,
-      'payer_email': 'customer@domain.com',
+      'payer_email': 'tochegandodelivery@domain.com',
       'description': 'Test - VA Successful invoice payment',
       'currency': 'IDR', //IDR, PHP, THB, VND, MYR
     });

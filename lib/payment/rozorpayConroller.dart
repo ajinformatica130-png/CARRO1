@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:customer/constant/constant.dart';
-import 'package:customer/model/payment_model.dart';
-import 'package:customer/payment/createRazorPayOrderModel.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/model/payment_model.dart';
+import 'package:tochegandodelivery/payment/createRazorPayOrderModel.dart';
 import 'package:http/http.dart' as http;
 
 class RazorPayController {

@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customer/model/driver_rules_model.dart';
-import 'package:customer/model/language_name.dart';
-import 'package:customer/model/order/location_lat_lng.dart';
-import 'package:customer/model/order/positions.dart';
-import 'package:customer/model/subscription_plan_model.dart';
+import 'package:tochegandodelivery/model/driver_rules_model.dart';
+import 'package:tochegandodelivery/model/language_name.dart';
+import 'package:tochegandodelivery/model/order/location_lat_lng.dart';
+import 'package:tochegandodelivery/model/order/positions.dart';
+import 'package:tochegandodelivery/model/subscription_plan_model.dart';
 
 class DriverUserModel {
   String? phoneNumber;

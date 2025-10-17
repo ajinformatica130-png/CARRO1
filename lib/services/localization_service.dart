@@ -1,5 +1,5 @@
-import 'package:customer/lang/app_ar.dart';
-import 'package:customer/lang/app_en.dart';
+import 'package:tochegandodelivery/lang/app_ar.dart';
+import 'package:tochegandodelivery/lang/app_en.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

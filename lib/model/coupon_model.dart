@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:customer/model/language_title.dart';
+import 'package:tochegandodelivery/model/language_title.dart';
 
 class CouponModel {
   List<LanguageTitle>? title;

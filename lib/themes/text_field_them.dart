@@ -1,5 +1,5 @@
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/utils/DarkThemeProvider.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/utils/DarkThemeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';

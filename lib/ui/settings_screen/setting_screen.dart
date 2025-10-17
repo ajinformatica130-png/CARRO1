@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:customer/constant/constant.dart';
-import 'package:customer/constant/show_toast_dialog.dart';
-import 'package:customer/services/localization_service.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/themes/responsive.dart';
-import 'package:customer/ui/auth_screen/login_screen.dart';
-import 'package:customer/utils/DarkThemeProvider.dart';
-import 'package:customer/utils/Preferences.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/constant/show_toast_dialog.dart';
+import 'package:tochegandodelivery/services/localization_service.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/themes/responsive.dart';
+import 'package:tochegandodelivery/ui/auth_screen/login_screen.dart';
+import 'package:tochegandodelivery/utils/DarkThemeProvider.dart';
+import 'package:tochegandodelivery/utils/Preferences.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';

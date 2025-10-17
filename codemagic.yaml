@@ -3,9 +3,14 @@ workflows:
     name: Build Android Release APK and AAB
     max_build_duration: 60
     environment:
-      flutter: stable
+      flutter: 3.27.1
       xcode: latest
     scripts:
+      - name: Ajustar Gradle compatível
+        script: |
+          cd android
+          sed -i 's/gradle-8.6/gradle-8.4/g' gradle/wrapper/gradle-wrapper.properties || true
+          cd ..
       - name: Clean
         script: flutter clean
       - name: Get dependencies

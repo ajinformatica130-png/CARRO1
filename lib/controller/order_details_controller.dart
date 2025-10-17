@@ -1,6 +1,6 @@
-import 'package:customer/model/order_model.dart';
-import 'package:customer/model/user_model.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/model/order_model.dart';
+import 'package:tochegandodelivery/model/user_model.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:get/get.dart';
 
 class OrderDetailsController extends GetxController {

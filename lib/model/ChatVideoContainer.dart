@@ -1,4 +1,4 @@
-import 'package:customer/model/conversation_model.dart';
+import 'package:tochegandodelivery/model/conversation_model.dart';
 
 class ChatVideoContainer {
   Url videoUrl;

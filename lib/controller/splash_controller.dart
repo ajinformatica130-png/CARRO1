@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:customer/ui/auth_screen/login_screen.dart';
-import 'package:customer/ui/dashboard_screen.dart';
-import 'package:customer/ui/on_boarding_screen.dart';
-import 'package:customer/utils/Preferences.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/ui/auth_screen/login_screen.dart';
+import 'package:tochegandodelivery/ui/dashboard_screen.dart';
+import 'package:tochegandodelivery/ui/on_boarding_screen.dart';
+import 'package:tochegandodelivery/utils/Preferences.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:get/get.dart';
 
 class SplashController extends GetxController {

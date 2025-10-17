@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:customer/constant/constant.dart';
-import 'package:customer/model/driver_user_model.dart';
-import 'package:customer/themes/app_colors.dart';
-import 'package:customer/utils/fire_store_utils.dart';
+import 'package:tochegandodelivery/constant/constant.dart';
+import 'package:tochegandodelivery/model/driver_user_model.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
+import 'package:tochegandodelivery/utils/fire_store_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 

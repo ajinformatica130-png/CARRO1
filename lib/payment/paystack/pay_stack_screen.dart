@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:customer/payment/paystack/paystack_url_genrater.dart';
-import 'package:customer/themes/app_colors.dart';
+import 'package:tochegandodelivery/payment/paystack/paystack_url_genrater.dart';
+import 'package:tochegandodelivery/themes/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:webview_flutter/webview_flutter.dart';
